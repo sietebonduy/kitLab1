@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+}
+
+.header {
+  padding: 20px;
+
+  background: #4169e1;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.header a {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #ff9aad;
+}
+
+.header a:active {
+  margin-right: 30px;
+  color: wheat;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: #242424;
+  color: white;
+  height: 40px;
+  width: 90px;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+input {
+  margin: 10px 0px 10px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.mainPage {
+  margin-top: 20px;
+}
