@@ -1,0 +1,197 @@
+.row {
+  padding-top: 15px;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.block {
+  padding-top: 20px;
+  height: 70px;
+  width: 1140px;
+}
+
+.nav-logo {
+  margin-top: 5px;
+  width: 430px;
+  height: 36px;
+}
+
+.nav-user {
+  margin-left: 20px;
+  width: 450px;
+}
+.box {
+  margin-left: 10px;
+}
+
+.nav-search input {
+  height: 30px;
+  width: 260px;
+}
+
+.search {
+  background: no-repeat
+    url("https://img.icons8.com/fluent-systems-filled/15/000000/search.png");
+  background-position: 35% 55%;
+}
+
+.nav-search input:focus {
+  background: no-repeat
+    url("https://img.icons8.com/plumpy/20/000000/macos-close.png");
+  background-position: 95% 50%;
+
+}
+
+.infoperson {
+  margin-top: 30px;
+}
+
+.userName {
+  display: flex;
+}
+
+.verif {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.infoAboutContent ul {
+  display: flex;
+  padding: 0;
+}
+
+.infoAboutContent ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.infoAboutContent ul li span {
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 100px;
+  border-radius: 50%;
+  border: 1px solid #dee2e6;
+  padding: 15px;
+}
+
+.StorePanel {
+  margin-top: 30px;
+}
+
+.StorePanel ul {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.StorePanel ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.StorePanel ul li:first-child {
+  margin-left: 0px;
+}
+
+.StorePanel ul li img {
+  border-radius: 50%;
+  border: 1px solid #dee2e6;
+  padding: 30px;
+}
+
+.StorePanel ul li p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.ct {
+  border-top: 1px solid #dee2e6;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.pt1 {
+  margin-right: 10px;
+}
+
+.pt1 img {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.pt2 {
+  margin-right: 10px;
+}
+
+.pt2 img {
+  margin-left: 10px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.pt3 img {
+  margin-left: 10px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.imgs:hover{
+  background-color:rgba(0,0,0,.1);
+
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+}
+
+.bra {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.users {
+  padding-bottom: 20px;
+  margin-bottom: 50px;;
+}
+
+.pt10 {
+  margin-left: 10px;
+}
+
+.pt11 {
+  margin-left: 915px;
+}
+
+.grey {
+  color: #8E8E8E;
+}
+
+.card {
+  background: no-repeat
+  url("https://img.icons8.com/fluent-systems-regular/20/000000/multiply.png");
+  background-position: 95% 5%;
+}
+
+select {
+  border: none;
+}
+
+.no-dec {
+  color: #8E8E8E !important;
+  text-decoration: none !important;
+}
