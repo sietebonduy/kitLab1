@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script>
+      function equation() {
+        d = document;
+        let a = Number(d.form1.a.value);
+        let b = Number(d.form1.b.value);
+        let c = Number(d.form1.c.value);
+
+        if (a === 0) {
+          alert("Не квадратное");
+        } else {
+          let d = b ** 2 - 4 * a * c;
+
+          if (d < 0) {
+            alert("Корней нет");
+          } else {
+            if (d > 0) {
+              let x1 = (-b - d ** (1 / 2)) / (2 * a);
+              let x2 = (-b + d ** (1 / 2)) / (2 * a);
+
+              alert(x1);
+              alert(x2);
+            } else {
+              let x = (-b + d ** (1 / 2)) / (2 * a);
+
+              alert(x);
+            }
+          }
+        }
+      }
+    </script>
+    <section>
+      <div class="nameBox">
+        <div class="text">
+          <h3>Калькулятор квадратных уравнений</h3>
+        </div>
+      </div>
+      <div class="mainBox">
+        <div class="equation">
+          <form name="form1">
+            <div class="a">
+              <input name="a" type="text" size="1px" />
+            </div>
+            <div class="x2">
+              <span>x<sup>2</sup> +</span>
+            </div>
+            <div class="b">
+              <input name="b" type="text" size="1px" />
+            </div>
+            <div class="x">
+              <span>x +</span>
+            </div>
+            <div class="c">
+              <input name="c" type="text" size="1px" />
+            </div>
+            <div class="zero">
+              <span>= 0</span>
+            </div>
+          </form>
+          <input
+            type="button"
+            value="Решить квадратное уравнение"
+            onClick="equation()"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

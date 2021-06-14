@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  flex-direction: column;
+  background: gray;
+  height: 250px;
+  width: 400px;
+}
+
+.nameBox {
+  background: rgb(226, 218, 218);
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBox {
+  background: rgb(235, 230, 230);
+  height: 80%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.a,
+.x2,
+.b,
+.x,
+.c,
+.zero {
+  margin: 5px;
+}
